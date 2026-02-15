@@ -1,0 +1,11 @@
+const String paymentDetails = '/payment_details';
+const String payWithCard='/payWithCard';
+const String payWithPayPal='/payWithPayPal';
+const String paymentSuccess = '/payment_success';
+const String paypalImage = 'assets/icons/paypal.svg';
+const String cardImage = 'assets/icons/card.svg';
+const String applePayImage = 'assets/icons/apple_pay.svg';
+const String creditCard = 'assets/images/credit_card.png';
+const String doneIcon = 'https://cdn3.iconfinder.com/data/icons/simple-web-navigation/165/tick-1024.png';
+const String creditCardLogo ='assets/icons/credit_card_logo.svg';
+const String carrierIcon='assets/icons/iconCarrier.svg';
