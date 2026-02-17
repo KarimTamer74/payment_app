@@ -35,7 +35,7 @@ class CompletePaymentButton extends StatelessWidget {
             if (currentIndex == 0) {
               BlocProvider.of<StripePaymentCubit>(context).makePayment(
                 paymentIntentInput: PaymentIntentRequest(
-                  amount: 30,
+                  amount: 50,
                   currency: 'USD',
                 ),
               );
