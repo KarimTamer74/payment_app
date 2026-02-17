@@ -1,7 +1,8 @@
+// features/checkout/presentation/widgets/payment_methods_list_view.dart
 import 'package:flutter/material.dart';
 import 'package:payment_app/core/utils/app_colors.dart';
 import 'package:payment_app/core/utils/constants.dart';
-import 'package:payment_app/features/checkout/presentation/views/widgets/payment_method_item.dart';
+import 'package:payment_app/features/checkout/presentation/widgets/payment_method_item.dart';
 
 class PaymentMethodsListView extends StatefulWidget {
   const PaymentMethodsListView({super.key, this.onTap});

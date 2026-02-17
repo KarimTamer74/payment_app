@@ -1,5 +1,6 @@
+// features/checkout/presentation/widgets/transaction_info_section.dart
 import 'package:flutter/material.dart';
-import 'package:payment_app/features/checkout/presentation/views/widgets/transaction_info_item.dart';
+import 'package:payment_app/features/checkout/presentation/widgets/transaction_info_item.dart';
 
 class TransactionInfoSection extends StatelessWidget {
   const TransactionInfoSection({super.key});

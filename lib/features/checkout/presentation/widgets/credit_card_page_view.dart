@@ -1,5 +1,6 @@
+// features/checkout/presentation/widgets/credit_card_page_view.dart
 import 'package:flutter/material.dart';
-import 'package:payment_app/features/checkout/presentation/views/widgets/custom_dots.dart';
+import 'package:payment_app/features/checkout/presentation/widgets/custom_dots.dart';
 
 class CreditCardPageView extends StatelessWidget {
   const CreditCardPageView({super.key, required this.pageController});

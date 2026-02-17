@@ -1,7 +1,8 @@
+// features/checkout/presentation/views/my_cart_view.dart
 import 'package:flutter/material.dart';
-import 'package:payment_app/core/utils/app_colors.dart';
-import 'package:payment_app/features/checkout/presentation/views/widgets/my_cart_body.dart';
 import 'package:payment_app/core/shared_widgets/custom_appbar.dart';
+import 'package:payment_app/core/utils/app_colors.dart';
+import 'package:payment_app/features/checkout/presentation/widgets/my_cart_body.dart';
 
 class MyCartView extends StatelessWidget {
   const MyCartView({super.key});
@@ -11,9 +12,7 @@ class MyCartView extends StatelessWidget {
     return const SafeArea(
       child: const Scaffold(
         backgroundColor: AppColors.whiteColor,
-        appBar: CustomAppBar(
-          title: 'My Cart',
-        ),
+        appBar: CustomAppBar(title: 'My Cart'),
         body: Padding(
           padding: EdgeInsets.fromLTRB(20, 20, 20, 12),
           child: MyCartBody(),

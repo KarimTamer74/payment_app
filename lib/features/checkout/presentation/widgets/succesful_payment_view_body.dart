@@ -1,15 +1,16 @@
+// features/checkout/presentation/widgets/succesful_payment_view_body.dart
 import 'package:flutter/material.dart';
 import 'package:payment_app/core/shared_widgets/custom_dashed_widget.dart';
 import 'package:payment_app/core/shared_widgets/custom_divider.dart';
 import 'package:payment_app/core/utils/app_colors.dart';
 import 'package:payment_app/core/utils/app_stayles.dart';
-import 'package:payment_app/features/checkout/presentation/views/widgets/barcode_widget.dart';
-import 'package:payment_app/features/checkout/presentation/views/widgets/credit_card_shape.dart';
-import 'package:payment_app/features/checkout/presentation/views/widgets/left_shape_of_container.dart';
-import 'package:payment_app/features/checkout/presentation/views/widgets/right_shape_of_container.dart';
-import 'package:payment_app/features/checkout/presentation/views/widgets/top_done_shape_of_container.dart';
-import 'package:payment_app/features/checkout/presentation/views/widgets/transaction_info_item.dart';
-import 'package:payment_app/features/checkout/presentation/views/widgets/transaction_info_section.dart';
+import 'package:payment_app/features/checkout/presentation/widgets/barcode_widget.dart';
+import 'package:payment_app/features/checkout/presentation/widgets/credit_card_shape.dart';
+import 'package:payment_app/features/checkout/presentation/widgets/left_shape_of_container.dart';
+import 'package:payment_app/features/checkout/presentation/widgets/right_shape_of_container.dart';
+import 'package:payment_app/features/checkout/presentation/widgets/top_done_shape_of_container.dart';
+import 'package:payment_app/features/checkout/presentation/widgets/transaction_info_item.dart';
+import 'package:payment_app/features/checkout/presentation/widgets/transaction_info_section.dart';
 
 class SuccessfulPaymentViewBody extends StatelessWidget {
   const SuccessfulPaymentViewBody({super.key});

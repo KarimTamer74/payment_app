@@ -1,7 +1,8 @@
+// features/checkout/presentation/views/payment_details_view.dart
 import 'package:flutter/material.dart';
 import 'package:payment_app/core/shared_widgets/custom_appbar.dart';
 import 'package:payment_app/core/utils/app_colors.dart';
-import 'package:payment_app/features/checkout/presentation/views/widgets/payment_details_body.dart';
+import 'package:payment_app/features/checkout/presentation/widgets/payment_details_body.dart';
 
 class PaymentDetailsView extends StatelessWidget {
   const PaymentDetailsView({super.key});

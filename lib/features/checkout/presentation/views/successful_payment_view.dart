@@ -1,7 +1,8 @@
+// features/checkout/presentation/views/successful_payment_view.dart
 import 'package:flutter/material.dart';
 import 'package:payment_app/core/shared_widgets/custom_appbar.dart';
 import 'package:payment_app/core/utils/app_colors.dart';
-import 'package:payment_app/features/checkout/presentation/views/widgets/succesful_payment_view_body.dart';
+import 'package:payment_app/features/checkout/presentation/widgets/succesful_payment_view_body.dart';
 
 class SuccessfulPaymentView extends StatelessWidget {
   const SuccessfulPaymentView({super.key});

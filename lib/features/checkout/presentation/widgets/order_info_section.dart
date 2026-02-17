@@ -1,5 +1,6 @@
+// features/checkout/presentation/widgets/order_info_section.dart
 import 'package:flutter/material.dart';
-import 'package:payment_app/features/checkout/presentation/views/widgets/order_info_item.dart';
+import 'package:payment_app/features/checkout/presentation/widgets/order_info_item.dart';
 
 class OrderInfoSection extends StatelessWidget {
   const OrderInfoSection({super.key});
