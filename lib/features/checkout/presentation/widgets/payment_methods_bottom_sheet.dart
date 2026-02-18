@@ -27,7 +27,9 @@ class _PaymentMethodsBottomSheetState extends State<PaymentMethodsBottomSheet> {
           const SizedBox(height: 40),
           PaymentMethodsListView(
             onTap: (index) {
-              currentIndex = index;
+              setState(() {
+                currentIndex = index;
+              });
             },
           ),
           const SizedBox(height: 40),
