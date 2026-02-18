@@ -4,10 +4,10 @@ import 'dart:developer';
 import 'package:dio/dio.dart';
 import 'package:flutter_stripe/flutter_stripe.dart';
 import 'package:payment_app/core/utils/api_keys.dart';
-import 'package:payment_app/features/checkout/data/models/create_cutomer_requset.dart';
-import 'package:payment_app/features/checkout/data/models/create_cutomer_response.dart';
-import 'package:payment_app/features/checkout/data/models/payment_intent_request.dart';
-import 'package:payment_app/features/checkout/data/models/payment_intent_response.dart';
+import 'package:payment_app/features/checkout/data/models/stripe_models/create_cutomer_requset.dart';
+import 'package:payment_app/features/checkout/data/models/stripe_models/create_cutomer_response.dart';
+import 'package:payment_app/features/checkout/data/models/stripe_models/payment_intent_request.dart';
+import 'package:payment_app/features/checkout/data/models/stripe_models/payment_intent_response.dart';
 
 class StripePaymentService {
   final Dio _dio = Dio();

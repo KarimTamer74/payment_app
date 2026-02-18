@@ -2,7 +2,7 @@
 import 'dart:developer';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:payment_app/features/checkout/data/models/payment_intent_request.dart';
+import 'package:payment_app/features/checkout/data/models/stripe_models/payment_intent_request.dart';
 import 'package:payment_app/features/checkout/data/repos/stripe_payment_repo.dart';
 import 'package:payment_app/features/checkout/data/repos/stripe_payment_repo_impl.dart';
 import 'package:payment_app/features/checkout/presentation/cubits/stripe_payment_cubit/stripe_payment_states.dart';
